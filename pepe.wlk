@@ -68,3 +68,14 @@ object demagogico{
             else 300
     }
 }
+
+object sofia{
+    
+    var property categoría = cadete
+    var property bonoxResultados = porcentaje
+
+    method sueldo(){
+        return (self.categoría().sueldoNeto() * 1.30) + self.bonoxResultados().valor(self)
+    }
+
+}

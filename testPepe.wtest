@@ -32,3 +32,12 @@ describe "Sueldo Pepe" {
 			assert.equals(23000, pepe.sueldo())
 	}
 }
+
+describe "Sueldo Sofia" {
+
+	test "Sueldo de sofia = 26800" {
+		sofia.categoría(cadete)
+		sofia.bonoxResultados(fijo)
+		assert.equals(26800, sofia.sueldo())
+	}
+}
